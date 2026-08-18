@@ -3,184 +3,158 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bugzila Car Play Privacy Policy</title>
-  <meta name="description" content="Privacy Policy for Bugzila Car Play Android application.">
+  <meta name="description" content="Privacy Policy for Bugzila Car Play by Bugzila Labs.">
+  <title>Privacy Policy — Bugzila Car Play</title>
   <style>
-    :root {
-      --bg: #ffffff;
-      --fg: #1f2937;
-      --muted: #6b7280;
-      --heading: #111827;
-      --border: #e5e7eb;
-      --card: #f9fafb;
-      --accent: #dc2626;
-      --link: #0369a1;
-    }
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      line-height: 1.62;
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 24px;
-      color: var(--fg);
-      background: var(--bg);
-    }
-    h1, h2, h3 { color: var(--heading); line-height: 1.25; }
-    h1 { font-size: 2rem; margin-bottom: .25rem; }
-    h2 { font-size: 1.35rem; margin-top: 2rem; padding-top: .25rem; }
-    h3 { font-size: 1.05rem; margin-top: 1.25rem; }
-    a { color: var(--link); }
-    ul { padding-left: 1.25rem; }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      margin: 1rem 0;
-      font-size: .95rem;
-    }
-    th, td {
-      border: 1px solid var(--border);
-      padding: .7rem;
-      vertical-align: top;
-      text-align: left;
-    }
-    th { background: #f3f4f6; color: var(--heading); }
-    code {
-      background: #f3f4f6;
-      padding: .12rem .28rem;
-      border-radius: .25rem;
-    }
-    .muted { color: var(--muted); }
-    .notice {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 14px 16px;
-      margin: 16px 0;
-    }
-    .small { font-size: .92rem; }
+    :root{color-scheme:light dark;--bg:#fff;--card:#f8fafc;--text:#172033;--muted:#667085;--line:#e5e7eb;--accent:#3157d5;--soft:#eef2ff}
+    @media(prefers-color-scheme:dark){:root{--bg:#0f1117;--card:#171b24;--text:#eef2ff;--muted:#aab2c0;--line:#2b3240;--accent:#8aa4ff;--soft:#18213a}}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.65}
+    main{max-width:980px;margin:0 auto;padding:32px 22px 64px} h1{font-size:2rem;line-height:1.2;margin:0 0 8px} h2{font-size:1.28rem;margin:2rem 0 .65rem} h3{font-size:1.05rem;margin:1.35rem 0 .45rem}
+    p,li{font-size:1rem} ul,ol{padding-left:1.35rem} a{color:var(--accent)} .meta{color:var(--muted);margin:0 0 22px}.notice{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:18px 0}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:14px 0}.toc a{display:inline-block;margin:3px 12px 3px 0}.small{font-size:.93rem;color:var(--muted)} code{background:var(--card);border:1px solid var(--line);padding:.08rem .3rem;border-radius:.3rem} footer{border-top:1px solid var(--line);margin-top:36px;padding-top:18px;color:var(--muted)}
   </style>
 </head>
 <body>
+<main>
   <h1>Bugzila Car Play Privacy Policy</h1>
-  <p class="muted">
-    Effective date: 3 July 2026<br>
-    App package: <code>com.bugzilacarplay.app</code><br>
-    App version reference: 6.6.01.170 and later
-  </p>
+  <p class="meta"><strong>App:</strong> Bugzila Car Play &nbsp;·&nbsp; <strong>Package:</strong> com.bugzilacarplay.app<br>
+  <strong>Developer:</strong> Bugzila Labs &nbsp;·&nbsp; <strong>Effective date:</strong> 16 August 2026 &nbsp;·&nbsp; <strong>Last updated:</strong> 18 August 2026<br>
+  <strong>Policy baseline:</strong> Bugzila Car Play v6.6.01.227</p>
 
   <div class="notice">
-    <p><strong>Summary.</strong> Bugzila Car Play is an Android media utility for Local Music playback, phone-only Video playback, Online Radio, Android Auto media browsing and controls, Bluetooth media metadata/control, Google Cast, Premium features, optional Firebase notifications, optional analytics, optional diagnostics, and support tools.</p>
-    <p>Bugzila Car Play is designed to minimize personal data collection. The app does not sell user data and does not automatically upload local music files, video files, contacts, precise location, or media library contents.</p>
+    Bugzila Car Play is designed to minimize personal data collection. The app does not require a Bugzila account, does not sell user data, and does not collect payment card numbers. Some technical, purchase, analytics, diagnostic, search, backup, media, and device/service data may be processed only as described below.
   </div>
 
-  <h2>1. Data stored locally on the device</h2>
-  <p>The app may store supported settings locally on the user's device, including:</p>
+  <div class="card toc">
+    <strong>Quick links:</strong><br>
+    <a href="#data-we-handle">Data we handle</a>
+    <a href="#billing">Purchases &amp; Premium</a>
+    <a href="#firebase">Firebase &amp; diagnostics</a>
+    <a href="#radio-search">Radio search</a>
+    <a href="#cast">Google Cast</a>
+    <a href="#retention">Retention</a>
+    <a href="#data-deletion">Data deletion</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <h2>1. Overview</h2>
+  <p>Bugzila Car Play is an Android media utility for local music playback, phone-only video playback, online radio, Android Auto media browsing and controls, Bluetooth media metadata/control, Google Cast, Premium features, Backup &amp; Restore, optional Firebase notifications, optional analytics, optional crash diagnostics, and support tools.</p>
+  <p>Bugzila Car Play does not require users to create or sign in to a Bugzila account to use its main features.</p>
+
+  <h2>2. Information we do not intentionally collect</h2>
+  <p>Bugzila Car Play is not designed to intentionally collect a user's name, home address, phone number, personal email address inside the app, precise GPS location, contacts, SMS/call logs, advertising ID, payment card number, credit score, health information, or general Google Drive account contents.</p>
+  <p>Google Play and other third-party services may process information under their own terms when users choose to use those services.</p>
+
+  <h2 id="data-we-handle">3. Data types that may be processed</h2>
+  <p>The Google Play Data Safety declaration for the current app may include the following data types because they can be transmitted off the device or processed by SDKs/services used by the app:</p>
   <ul>
-    <li>theme, EQ/audio settings, 3D Surround and Night Mode preferences;</li>
-    <li>online radio favorites, radio settings, playback buffer settings and local music scan settings;</li>
-    <li>Cast preferences, widget preferences, privacy choices and notification consent state;</li>
-    <li>Premium entitlement cache used to display purchased features after Google Play Billing verification;</li>
-    <li>optional local problem reports created only when the user starts a support report.</li>
+    <li><strong>Purchase history</strong> — used for Premium entitlement, Google Play purchase verification, acknowledgement, and replay/fraud prevention.</li>
+    <li><strong>Approximate location</strong> — may be derived by Google Analytics when optional Usage Analytics is enabled. Bugzila Car Play does not request precise location permission for analytics.</li>
+    <li><strong>Crash logs and diagnostics</strong> — optional crash/stability information when Crash Diagnostics is enabled or a diagnostic action is intentionally run.</li>
+    <li><strong>Files and documents</strong> — user-initiated Backup &amp; Restore files handled through Android's Storage Access Framework.</li>
+    <li><strong>App interactions</strong> — optional feature-use events when Usage Analytics is enabled.</li>
+    <li><strong>In-app search history</strong> — search text may be sent to a public radio directory when the user performs an online/advanced radio search.</li>
+    <li><strong>Device or other IDs</strong> — Firebase Installation identifiers and related app-instance identifiers used by enabled Firebase services, messaging, analytics/diagnostics, and security/service integrity functions.</li>
+    <li><strong>Music files</strong> — when the user explicitly casts a local music track, the selected audio may be served temporarily to the selected Cast receiver for playback. Bugzila does not retain the local music file on a Bugzila backend.</li>
   </ul>
-  <p>Local settings remain on the device until the user changes them, clears app data, uninstalls the app, or uses a clear/reset control provided by the app or Android system settings.</p>
 
-  <h2>2. Local media permissions</h2>
-  <p>Local Music asks for audio access only when the user opens the music library. Phone-only Video asks for video access only when the user opens the video feature. These permissions are used to browse and play media files selected or stored on the user's device. The app does not upload media files to Bugzila servers.</p>
-  <p>Online Radio can be used without granting audio or video file access.</p>
+  <h2>4. Local media and permissions</h2>
+  <p>Local Music requests audio access only when needed to browse and play audio on the user's device. Phone-only Video requests video access only when needed for that feature. Local media remains under the user's control and is not automatically uploaded to Bugzila servers.</p>
+  <p>Online Radio can be used without granting local audio or video file access.</p>
 
-  <h2>3. Backup &amp; Restore</h2>
-  <p>Backup &amp; Restore uses Android's system file picker and Storage Access Framework. The user chooses where to save or open a Bugzila Car Play configuration file, including local storage, Google Drive, or another document provider supported by the device.</p>
-  <p>Bugzila Car Play does not directly access Google Drive accounts, does not use the Google Drive API for Backup &amp; Restore, and does not upload configuration files to Bugzila servers.</p>
-  <p>Configuration backup files may include supported settings such as online radio favorites, theme, EQ/audio settings, local music scan settings, online radio settings and Cast preferences.</p>
-  <p>Configuration backup files do not include Premium entitlement, purchase status, purchase tokens, order identifiers, analytics consent, diagnostics, permissions, cache, MediaSession state, Cast sessions, Android Auto sessions, Bluetooth sessions, playback queue, current track, playback position, API keys, Firebase identifiers, FCM tokens, or local music file paths.</p>
+  <h2>5. Backup &amp; Restore</h2>
+  <p>Backup &amp; Restore uses Android's system file picker and Storage Access Framework. Users choose where to save or open a Bugzila Car Play configuration file, including local storage or a document provider supported by the device.</p>
+  <p>Bugzila Car Play does not use the Google Drive API to browse a user's Drive. A user-selected document provider may process a backup file under that provider's own terms when the user chooses it.</p>
+  <p>Configuration backups may contain supported app settings such as radio favorites, themes, EQ/audio preferences, radio settings, local music scan settings, Cast preferences, notification preferences, and other supported configuration values. Backups do <strong>not</strong> contain Premium entitlement, purchase tokens, order identifiers, credentials, Firebase identifiers, FCM tokens, diagnostic reports, API keys, or local music file contents.</p>
 
-  <h2>4. Firebase Installation ID, Analytics and Crash Diagnostics</h2>
-  <p>Bugzila Car Play may include Firebase SDK components. Firebase may create a Firebase Installation ID or app instance identifier for the installed app instance. These identifiers may be used by enabled Firebase services to operate analytics, crash diagnostics, messaging delivery, abuse prevention, service reliability, and Firebase SDK management.</p>
-  <p>Usage Analytics is optional and controlled by the in-app Privacy &amp; Analytics setting. When enabled, analytics may include app version, feature usage events, screen or feature counters, approximate device category, Android version, language/locale, and non-content technical information. The app is designed not to send personal files, contacts, precise location, local media file names, local media paths, station stream URLs, purchase tokens, order identifiers, FCM tokens, or support report contents to Firebase Analytics.</p>
-  <p>Crash Diagnostics and Developer Diagnostics are optional controls. If enabled, diagnostic records may include app version, version code, device model/manufacturer, Android version, app state, feature state, sanitized error messages, sanitized stack traces, and technical crash information needed to fix defects. Diagnostic logs are sanitized to avoid intentionally sending personal files, local music paths, stream URLs, purchase data, API keys, Firebase identifiers, FCM tokens, or configuration contents.</p>
+  <h2 id="billing">6. Google Play purchases and Premium verification</h2>
+  <p>Premium is purchased through Google Play. Google Play handles payment processing, payment-card information, taxes, refunds, and the Google account used for the purchase. Bugzila Car Play does not receive or store payment card numbers.</p>
+  <p>To verify Premium, the app may send the Google Play purchase token over HTTPS to the dedicated Bugzila billing verification service. The backend validates the purchase with the Google Play Developer API and, for eligible purchased transactions, may acknowledge the purchase with Google Play.</p>
+  <p>The Android app does not intentionally persist or log the raw purchase token. The billing backend uses a one-way SHA-256-based fingerprint of the purchase token as the ledger identifier and may retain minimal verification metadata such as package/product, purchase state, acknowledgement state, verification decision, test-purchase indicator, timestamps, and replay/verification counters. This is used for entitlement reconciliation, replay/duplicate-processing protection, fraud/security controls, and operational troubleshooting.</p>
+  <p>The raw purchase token is not stored in the replay ledger and is not included in Analytics, Crashlytics, diagnostic screens, support reports, or configuration backups.</p>
+  <p>See the separate <a href="../billing/">Billing Disclosure</a> for additional purchase details.</p>
 
-  <h2>5. Firebase Cloud Messaging and notification consent</h2>
-  <p>Firebase Cloud Messaging is disabled by default. The app shows an optional first-run notification prompt after the user accepts the legal disclaimer, and users can also change the setting later in Privacy &amp; Analytics.</p>
-  <p>FCM is enabled only after the user chooses to receive important notifications and, on Android versions that require it, grants Android notification permission. After consent, Firebase may create or refresh an FCM registration token for the app instance and the app may subscribe to service-related topics.</p>
-  <p>Bugzila Car Play uses FCM only for service announcements, radio server issues, Android Auto-related service alerts, and important app update notices. Promotion, advertising, Premium upsell and <code>open_premium</code> notification actions are not supported by the app.</p>
-  <p>If the user turns notifications off, the app disables FCM auto-init, unsubscribes service topics where possible, removes legacy promotion subscriptions where present, and requests deletion of the app's FCM token.</p>
+  <h2 id="firebase">7. Firebase Installation ID, optional Analytics and optional Crash Diagnostics</h2>
+  <p>Bugzila Car Play includes Firebase components. Firebase may create a Firebase Installation ID or other app-instance identifier used by enabled Firebase services.</p>
+  <h3>Usage Analytics</h3>
+  <p>Usage Analytics is optional and controlled by the in-app Privacy &amp; Analytics setting. Analytics collection is disabled by default in the app configuration and is enabled only when the applicable user setting allows it.</p>
+  <p>When enabled, Analytics may process app version, Android version, language/locale, approximate location derived by the analytics service, feature/screen interaction events, playback/source categories, Cast or Android Auto feature interactions, Favorite interactions, and limited online-radio station identifiers or station names used to understand feature usage.</p>
+  <p>Bugzila Car Play is designed not to send raw purchase tokens, order identifiers, local music file contents, local music paths, stream URLs, contacts, precise GPS location, credentials, or support-report contents to Firebase Analytics.</p>
+  <h3>Crash Diagnostics</h3>
+  <p>Crash Diagnostics is optional. When enabled, Firebase Crashlytics may process crash logs and diagnostic information such as app version, Android version, device model/manufacturer, app state, feature state, sanitized error messages, stack traces, Firebase/Crashlytics installation identifiers, and technical crash information needed to diagnose defects and improve stability.</p>
+  <p>Diagnostic handling is designed to avoid intentionally including local media contents/paths, raw purchase tokens, order identifiers, API keys, service credentials, or configuration backup contents.</p>
 
-  <h2>6. Device, connection and service data</h2>
-  <p>To provide media playback and troubleshoot support requests, the app may use or display technical information such as app version, version code, Android version, device model/manufacturer, language/locale, notification permission state, network availability, Android Auto connection state, Cast connection state, Bluetooth media session state, playback state, and sanitized error details.</p>
-  <p>Android Auto, Bluetooth, Google Cast, Google Play Billing, Firebase, public radio directory services, and third-party radio streams may process data according to their own terms and privacy practices. Bugzila Car Play does not control third-party radio streams or the data practices of third-party services.</p>
+  <h2>8. Firebase Cloud Messaging and notifications</h2>
+  <p>Firebase Cloud Messaging (FCM) is optional. The app can request notification consent and, where required by Android, notification permission. After consent, Firebase may create or refresh an FCM registration token and the app may subscribe to service-related topics.</p>
+  <p>Notifications are used for service announcements, important app updates, radio/server issues, Android Auto-related service alerts, and similar developer communications. Bugzila Car Play does not use FCM for third-party advertising.</p>
+  <p>When notifications are turned off through supported in-app controls, the app disables FCM auto-init, removes supported topic subscriptions where possible, and requests deletion of the app's FCM token.</p>
 
-  <h2>7. Google Play Billing and Premium</h2>
-  <p>Premium purchases are handled by Google Play Billing. Google Play manages payment processing, purchase history, refunds, chargebacks, and payment account information. The app may receive purchase status, product ID, and purchase verification information from Google Play to unlock Premium features. The app does not directly collect or store payment card numbers or payment account credentials.</p>
+  <h2 id="radio-search">9. Online radio and radio search</h2>
+  <p>Online radio streams and directory/search results may be provided by public radio directories, public radio APIs, and individual radio-station servers.</p>
+  <p>When the user performs an online/advanced radio search, the search term may be transmitted over HTTPS to a public radio directory service so that matching stations can be returned. This action is initiated by the user and is used for app functionality. Bugzila Car Play does not intentionally store raw radio-search text in a Bugzila server database.</p>
+  <p>When playing a radio station, third-party streaming servers may receive ordinary connection information such as IP address, user agent/request information, access time, requested stream URL, and connection status under their own privacy practices.</p>
+  <p>Region-based radio suggestions may use Android language/locale or region settings. This feature does not require precise GPS location.</p>
 
-  <h2>8. Problem reports and support messages</h2>
-  <p>Problem reports are created or sent only when the user manually chooses to send a report. A report may include app version, Android version, device model, feature state, permission state, connection state, and sanitized playback/debug information. Users should not add sensitive personal information to support messages.</p>
-  <p>Local report files remain on the device until the user sends them, deletes them, clears local reports from Privacy &amp; Analytics, clears app data, or uninstalls the app. Support messages sent by email or social media are retained by the user's chosen email or support service and by the developer only as long as needed to respond, troubleshoot, maintain records, or comply with legal requirements.</p>
+  <h2>10. Android Auto and Bluetooth</h2>
+  <p>When using Android Auto or Bluetooth media controls, media information such as station/track title, artist, artwork, playback state, queue information, and control state may be transferred to the connected system to display and control playback. These transfers are used for app functionality and are not used by Bugzila Car Play for advertising.</p>
 
-  <h2>9. Data retention</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Data type</th>
-        <th>Retention</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Local app settings and preferences</td>
-        <td>Retained on the device until changed, cleared, reset by the user, or the app is uninstalled.</td>
-      </tr>
-      <tr>
-        <td>Backup files</td>
-        <td>Retained wherever the user saves them. The user controls deletion from that location.</td>
-      </tr>
-      <tr>
-        <td>FCM token and topic state</td>
-        <td>Retained only while notification consent is enabled, subject to Firebase token lifecycle. Opting out requests token deletion and topic removal where supported.</td>
-      </tr>
-      <tr>
-        <td>Crash diagnostics</td>
-        <td>Retained in Firebase Crashlytics according to Firebase retention behavior and the app's Firebase project settings. Bugzila Car Play does not export crash diagnostics to a separate Bugzila server database.</td>
-      </tr>
-      <tr>
-        <td>Analytics events</td>
-        <td>Retained in Firebase/Google Analytics according to the Firebase or Google Analytics project retention setting. The developer intends to keep analytics retention no longer than needed for app improvement and release quality review.</td>
-      </tr>
-      <tr>
-        <td>Support reports and messages</td>
-        <td>Retained only as long as needed for troubleshooting, support follow-up, record keeping, or legal compliance.</td>
-      </tr>
-      <tr>
-        <td>Google Play Billing purchase records</td>
-        <td>Managed by Google Play under the user's Google account and Google Play policies. The app uses purchase status to unlock Premium where applicable.</td>
-      </tr>
-    </tbody>
-  </table>
+  <h2 id="cast">11. Google Cast</h2>
+  <p>Cast sessions are initiated by the user. To enable playback, the app may send media metadata, artwork references, playback state, online stream URLs, and related connection information to the selected Cast receiver and Google Cast components.</p>
+  <p>For local music Cast playback, the selected local audio file may be made temporarily available to the selected receiver over the user's local network for the duration needed to play the media. The local audio file is not uploaded to or retained by a Bugzila backend as part of this flow.</p>
+  <p>When Cast is disconnected, the app attempts to stop the Cast session and clear related playback state.</p>
 
-  <h2>10. User controls and deletion</h2>
-  <p>Users can control privacy-related options inside Privacy &amp; Analytics, including Usage Analytics, optional notifications, local report cleanup, and related privacy settings.</p>
-  <p>Users can delete local app data by using Android system settings to clear app storage or uninstall the app. Users can delete backup files from the location where they saved them. Users can turn off notifications in Privacy &amp; Analytics; this disables FCM auto-init, removes supported topic subscriptions where possible, and requests deletion of the FCM token.</p>
-  <p>For support report deletion or privacy questions, contact the developer through the support channels below and include enough information to identify the support message or report that should be reviewed or deleted. The app may not be able to identify a Firebase record from a user request unless the user provides the related support context or app instance information available to them.</p>
+  <h2>12. Problem reports and support messages</h2>
+  <p>Support/problem reports are created or sent only when the user intentionally chooses to do so. A report may include app version, Android version, device model, feature/permission state, connection state, and sanitized playback/debug information needed for troubleshooting.</p>
+  <p>Users should not include passwords, purchase tokens, payment-card information, private keys, or other sensitive information in support messages.</p>
 
-  <h2>11. How to request data deletion</h2>
-  <p>You may request review or deletion of Bugzila Car Play support records by contacting the developer:</p>
-  <p><a href="mailto:bugzila@gmail.com">bugzila@gmail.com</a></p>
-  <p>Please use the subject line: <strong>Bugzila Car Play Data Deletion Request</strong>.</p>
-  <p>Include enough non-sensitive information to identify the support message or report, such as app version, device model, Android version, approximate date of the support request, and the support channel used. Do not send passwords, payment card numbers, purchase tokens, FCM tokens, private local media files, or other sensitive information.</p>
-  <p>Some data, such as Google Play purchase history, refunds, receipts, or payment records, is controlled by Google Play and must be managed through the user's Google account and Google Play controls. Some analytics or diagnostic data may be aggregated or de-identified and may not be searchable by name or email.</p>
+  <h2>13. Data sharing and service providers</h2>
+  <p>Bugzila Car Play does not sell user data and does not share user data with advertising partners.</p>
+  <p>Data may be processed by service providers or transferred as part of a specific user-initiated action, including Google Play, Firebase, Google Cast, Android Auto, public radio directories/streams, Android document providers, and user-selected support channels. These providers may process information under their own terms and privacy policies.</p>
+  <p>The Google Play Data Safety form may classify eligible service-provider processing and specific user-initiated transfers as not being "shared" with third parties under Google Play's Data Safety definitions.</p>
 
-  <h2>12. Children's privacy</h2>
-  <p>Bugzila Car Play is a general media utility and is not directed to children. The app does not knowingly collect personal information from children. If a parent or guardian believes that personal information was provided through a support channel, contact the developer to request review or deletion.</p>
+  <h2>14. Security and transmission</h2>
+  <p>Bugzila Car Play uses reasonable technical and organizational measures appropriate to the data and feature involved. Data sent to Bugzila-controlled billing/integrity services and supported Internet APIs is transmitted using HTTPS/TLS where applicable. Firebase and Google Play communications are handled through their supported secure service transports.</p>
+  <p>User-initiated local-network media delivery to a selected Cast receiver is a direct playback path selected by the user and is not a Bugzila server-storage path. Users should use trusted local networks and trusted receiver devices.</p>
+  <p>No Internet or device-to-device system can be guaranteed to be completely secure.</p>
 
-  <h2>13. Changes to this policy</h2>
-  <p>This policy may be updated when app features, Firebase usage, Android permissions, Premium features, support tools, or legal requirements change. Continued use of the app after an update means the user accepts the updated privacy practices.</p>
+  <h2 id="retention">15. Data retention</h2>
+  <ul>
+    <li><strong>Local app settings:</strong> remain on the device until changed, cleared, reset, or the app is uninstalled.</li>
+    <li><strong>Backup files:</strong> remain wherever the user saves them until the user deletes them from that location/provider.</li>
+    <li><strong>Analytics:</strong> retained by Firebase/Google Analytics according to the project's configured retention and applicable Google service behavior. BCP does not export Analytics to a separate Bugzila analytics database.</li>
+    <li><strong>Crash diagnostics:</strong> retained by Firebase Crashlytics according to Firebase service retention behavior. BCP does not maintain a separate Bugzila crash-log database.</li>
+    <li><strong>FCM token/topic state:</strong> subject to Firebase token lifecycle and the user's notification consent; opting out requests supported token/topic cleanup.</li>
+    <li><strong>Support messages/reports:</strong> retained only as reasonably needed for support, troubleshooting, security, record keeping, dispute handling, or legal compliance.</li>
+    <li><strong>Billing replay ledger:</strong> the one-way purchase-token fingerprint and minimal verification/acknowledgement metadata may be retained as reasonably necessary for replay/fraud prevention, entitlement reconciliation, refund/dispute handling, security, and applicable record-keeping obligations. Raw purchase tokens are not retained in the ledger.</li>
+  </ul>
 
-  <h2>14. Contact</h2>
-  <p>Developer support email: <a href="mailto:bugzila@gmail.com">bugzila[at]gmail[dot]com</a></p>
-  <p>Support page: <a href="https://www.facebook.com/profile.php?id=61590205657331">Bugzila Car Play support page</a></p>
+  <h2 id="data-deletion">16. How to request data deletion</h2>
+  <div class="card">
+    <p><strong>Deletion request email:</strong> <a href="mailto:bugzila@gmail.com?subject=Bugzila%20Car%20Play%20Data%20Deletion%20Request">bugzila@gmail.com</a><br>
+    <strong>Recommended subject:</strong> <code>Bugzila Car Play Data Deletion Request</code></p>
+    <p>In the request, describe the data or support interaction you want reviewed or deleted and provide only the minimum information reasonably needed to locate it, such as the approximate date and support channel used. <strong>Do not send a purchase token, payment-card number, password, private key, or other secret.</strong></p>
+  </div>
+  <p>Users can delete local app data through Android Settings by clearing Bugzila Car Play storage or uninstalling the app. Users can delete exported backup files from the location/provider where they saved them. Optional Analytics, Crash Diagnostics, and notifications can be disabled through supported in-app Privacy &amp; Analytics controls.</p>
+  <p>Bugzila Labs will review valid deletion requests for data it controls and can reasonably identify. Some records may be retained when necessary for security/fraud and replay prevention, purchase/entitlement reconciliation, refund or dispute handling, legal compliance, or required record keeping. Some data controlled by Google/Firebase, radio services, Cast/Android Auto components, document providers, email providers, or other third-party services may need to be managed through those providers.</p>
+  <p>Because Bugzila Car Play does not require a Bugzila account and intentionally avoids storing raw purchase tokens in its ledger, some backend/Firebase records may not be individually identifiable from a deletion request without sufficient non-sensitive context.</p>
 
-  <hr>
-  <p class="muted small">
-    Deployment note: this file is intended to be used as <code>/privacy-policy/index.html</code> on GitHub Pages. Keep the Google Play Data Safety form consistent with this document and the actual behavior of the release build.
-  </p>
+  <h2>17. Children's privacy</h2>
+  <p>Bugzila Car Play is a general media utility and is not specifically directed to children. If a parent or guardian believes personal information was submitted through a support channel, they may contact Bugzila Labs to request review or deletion.</p>
+
+  <h2>18. Changes to this Privacy Policy</h2>
+  <p>This policy may be updated to reflect app features, SDK/service usage, backend changes, Android/Google Play requirements, security improvements, or legal requirements. The current version will be published at this URL with an updated date.</p>
+
+  <h2 id="contact">19. Contact</h2>
+  <p><strong>Developer:</strong> Bugzila Labs<br>
+  <strong>Email:</strong> <a href="mailto:bugzila@gmail.com">bugzila@gmail.com</a><br>
+  <strong>Official website:</strong> <a href="https://bugzilacarplay.github.io/">https://bugzilacarplay.github.io/</a><br>
+  <strong>Privacy Policy:</strong> <a href="https://bugzilacarplay.github.io/privacy-policy/">https://bugzilacarplay.github.io/privacy-policy/</a><br>
+  <strong>Billing Disclosure:</strong> <a href="https://bugzilacarplay.github.io/billing/">https://bugzilacarplay.github.io/billing/</a><br>
+  <strong>Facebook support:</strong> <a href="https://www.facebook.com/profile.php?id=61590205657331">Bugzila Car Play</a></p>
+
+  <footer>
+    <p>© 2026 Bugzila Labs. All rights reserved.</p>
+    <p class="small">This policy describes the app and related backend behavior for the stated baseline. Third-party services remain subject to their own policies and terms.</p>
+  </footer>
+</main>
 </body>
 </html>
